@@ -21,4 +21,5 @@ jobs:
         with:
           path: our-source
       - run: ls -al
-      - run: cat .github/workflows/first.yml
+      - run: ls -al our-source
+      # - run: cat .github/workflows/first.yml
